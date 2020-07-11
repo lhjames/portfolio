@@ -1,7 +1,25 @@
 .info-what {
+	background-color: $white-bg;
 	h1 {
 		font-family: $headers;
 		color: $blue-main;
+		font-weight: bolder;
+	}
+}
+
+.info-learn {
+	background-color: $blue-main;
+	h1 {
+		font-family: $headers;
+		color: #fff;
+		font-weight: bolder;
+	}
+}
+.info-cards {
+	background-color: $white-bg;
+	h1 {
+		font-family: $headers;
+		color: #fff;
 		font-weight: bolder;
 	}
 }
