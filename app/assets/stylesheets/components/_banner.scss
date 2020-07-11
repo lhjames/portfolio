@@ -1,0 +1,24 @@
+.banner {
+	background-size: cover;
+	object-fit: top;
+	height: 30rem;
+	width: 100% !important;
+  background-position: center;
+  padding: 150px 0;
+  overflow: hidden;
+}
+.banner > h1 {
+  font-family: $headers;
+	font-size: 3em;
+	text-align: center;
+	color: #fff;
+  text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
+  margin-top: 7rem;
+}
+.banner > h3 {
+	text-align: center;
+	color: white;
+	font-family: $body;
+  font-weight: lighter;
+  text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
+}
