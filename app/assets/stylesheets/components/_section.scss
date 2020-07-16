@@ -4,15 +4,20 @@
 		font-family: $headers;
 		color: $blue-main;
 		font-weight: bolder;
+		font-size: 2em;
 	}
 }
-
 .info-learn {
 	background-color: $blue-main;
+	font-family: $body; 
+	font-weight: lighter;
+	font-size: 1em;
+	color: #fff;
 	h1 {
 		font-family: $headers;
 		color: #fff;
 		font-weight: bolder;
+		font-size: 2em;
 	}
 }
 .info-cards {
@@ -30,4 +35,5 @@
 .info-icons {
 	font-family: $body;
 	color: $light-font;
+	// box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
 }
