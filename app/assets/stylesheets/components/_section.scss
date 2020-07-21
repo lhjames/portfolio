@@ -9,13 +9,19 @@
 	}
 }
 
-@media screen and (min-width: 1080px) {
+@media screen 
+and (min-width: 767px) {
 	.row {
 		margin-left: 13rem;
 		max-width: 100%;
 	}
 }
-
+@media screen and (min-width: 1224px) {
+	.row {
+		margin-left: 17rem;
+		max-width: 100%;
+	}
+}
 .info-learn {
 	background-color: $blue-main;
 	font-family: $body; 
